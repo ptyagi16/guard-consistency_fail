@@ -31,8 +31,8 @@ Please read [Guard usage doc](http://github.com/guard/guard#readme).
 
 ## Development
 
- * Source hosted at [GitHub](http://github.com/suranyami/guard-consistency_fail)
- * Report issues/Questions/Feature requests on [GitHub Issues](http://github.com/ptyagi/guard-consistency_fail/issues)
+ * Source hosted at [GitHub](https://github.com/ptyagi16/guard-consistency_fail)
+ * Report issues/Questions/Feature requests on [GitHub Issues](https://github.com/ptyagi16/guard-consistency_fail/issues)
 
 Pull requests are very welcome! Make sure your patches are well tested. Please create a topic branch for every separate change
 you make.
@@ -42,7 +42,7 @@ you make.
  * Update the version number in `lib/guard/consistency_fail/version.rb`
  * Update `CHANGELOG.md`
  * Build the gem:
- 
+
     gem build guard-consistency_fail.gemspec
     
  * Push to rubygems.org:
