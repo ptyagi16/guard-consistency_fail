@@ -47,11 +47,11 @@ you make.
     
  * Push to rubygems.org:
  
-    gem push guard-consistency_fail-0.0.5.gem
+    gem push guard-consistency_fail-0.0.6.gem
     
 ## Testing the gem locally
 
-    gem install guard-consistency_fail-0.0.5.gem
+    gem install guard-consistency_fail-0.0.6.gem
 
 
 ## Authors
@@ -62,5 +62,5 @@ Ideas for this gem came from [Guard::Delayed](https://github.com/guard/guard-del
 
 ## Note
 
-I originally called this `guard-consistency_fail` and I thought it would not work but it did!
+I originally called this `guard-consistency_fail` and had issues with pushing new gems.
 Anybody else encountered this? Let me know if you have. Thanks in advance.
