@@ -40,7 +40,7 @@ module Guard
     private
 
     def cmd
-      command = "consistency_fail"
+      command = 'consistency_fail'
       command = "export RAILS_ENV=#{@options[:environment]}; #{command}" if @options[:environment]
       UI.info "Running consistency_fail: #{command}"
       command
