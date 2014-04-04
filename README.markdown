@@ -62,7 +62,6 @@ you make.
 
 Ideas for this gem came from [Guard::Delayed](https://github.com/guard/guard-delayed).
 
-## Note
+## License
 
-I originally called this `guard-consistency_fail` and had issues with pushing new gems.
-Anybody else encountered this? Let me know if you have. Thanks in advance.
+MIT License.  See License file.
