@@ -47,11 +47,11 @@ you make.
     
  * Push to rubygems.org:
  
-    gem push guard-consistency_fail-0.0.7.gem
+    gem push guard-consistency_fail-0.0.8.gem
     
 ## Testing the gem locally
 
-    gem install guard-consistency_fail-0.0.7.gem
+    gem install guard-consistency_fail-0.0.8.gem
 
 
 ## Authors
