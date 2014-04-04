@@ -1,6 +1,6 @@
 # Guard::ConsistencyFail
 
-Guard::ConsistencyFail automatically runs consistency fail when model or schema.rb changes
+Guard::ConsistencyFail automates running of checks from [consistency_fail](https://github.com/trptcolin/consistency_fail) in guard when model or schema.rb changes.
 
 [![Gem Version](https://badge.fury.io/rb/guard-consistency_fail.svg)](http://badge.fury.io/rb/guard-consistency_fail)
 
@@ -22,7 +22,7 @@ Add guard definition to your Guardfile by running this command:
 
 ## Usage
 
-Please read [Guard usage doc](http://github.com/guard/guard#readme).
+Please read [Guard usage doc](http://github.com/guard/guard#readme).  Also please refer to [consistency_fail](https://github.com/trptcolin/consistency_fail) for details on how the consistency_fail gem works.
 
 ## Guardfile
 
