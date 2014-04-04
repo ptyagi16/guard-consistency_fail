@@ -2,7 +2,7 @@
 
 Guard::ConsistencyFail automates running of checks from [consistency_fail](https://github.com/trptcolin/consistency_fail) in guard when model or schema.rb changes.
 
-[![Gem Version](https://badge.fury.io/rb/guard-consistency_fail.svg)](http://badge.fury.io/rb/guard-consistency_fail)
+[![Gem Version](https://badge.fury.io/rb/guard-consistency_fail.svg)](http://badge.fury.io/rb/guard-consistency_fail) [![Code Climate](https://codeclimate.com/github/ptyagi16/guard-consistency_fail.png)](https://codeclimate.com/github/ptyagi16/guard-consistency_fail)
 
 ## Install
 
