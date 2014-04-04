@@ -12,7 +12,7 @@ Install the gem:
 
     gem install guard-delayed
 
-Add it to your Gemfile (inside test group):
+Add it to your Gemfile (inside development group):
 
     gem 'guard-consistency_fail'
 
@@ -41,15 +41,15 @@ you make.
 
 ## Building and deploying gem
 
- * Update the version number in `lib/guard/consistency_fail/version.rb`
- * Update `CHANGELOG.md`
- * Build the gem:
+* Update the version number in `lib/guard/consistency_fail/version.rb`
+* Update `CHANGELOG.md`
+* Build the gem
 
-    gem build guard-consistency_fail.gemspec
+    `gem build guard-consistency_fail.gemspec`
     
- * Push to rubygems.org:
- 
-    gem push guard-consistency_fail-0.0.9.gem
+* Push to rubygems.org
+
+    `gem push guard-consistency_fail-0.0.9.gem`
     
 ## Testing the gem locally
 
@@ -60,7 +60,7 @@ you make.
 
 [Pankaj Tyagi](https://github.com/ptyagi16)
 
-Ideas for this gem came from [Guard::Delayed](https://github.com/guard/guard-delayed).
+Ideas for this gem came from  [consistency_fail](https://github.com/trptcolin/consistency_fail) and [Guard::Delayed](https://github.com/guard/guard-delayed).
 
 ## License
 
