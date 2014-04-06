@@ -1,4 +1,4 @@
-## 0.0.10 (2014-04-04)
+## 0.0.10 (2014-04-06)
 
  * Removed the use of git ls-files in the gemspec file.
 
