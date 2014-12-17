@@ -8,13 +8,21 @@ Guard::ConsistencyFail automates running of checks from [consistency_fail](https
 
 Please be sure to have [Guard](http://github.com/guard/guard) installed before continue.
 
-Install the gem:
+You can do one of the following:
 
-    gem install guard-delayed
+  Install the gem:
 
-Add it to your Gemfile (inside development group):
 
-    gem 'guard-consistency_fail'
+      gem install guard-consistency_fail
+
+  or add it to your Gemfile (inside development group):
+
+
+      gem 'guard-consistency_fail'
+
+Note: for Guard version below 2.1 use version 0.0.10 of this gem so in your `Gemfile`
+
+      gem 'guard-consistency_fail', '0.0.10'
 
 Add guard definition to your Guardfile by running this command:
 
