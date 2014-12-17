@@ -1,5 +1,5 @@
 require 'guard'
-require 'guard/guard'
+require 'guard/plugin'
 
 module Guard
   class ConsistencyFail < Plugin
@@ -10,7 +10,7 @@ module Guard
     def initialize(options = {})
       @options = options
       @watchers = options[:watchers]
-      super()
+      super
     end
 
     def start
