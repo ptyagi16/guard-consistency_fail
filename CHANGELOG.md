@@ -1,3 +1,7 @@
+## 0.1.1 (2014-12-17)
+
+ * Support for Guard 2.0
+
 ## 0.0.10 (2014-04-06)
 
  * Removed the use of git ls-files in the gemspec file.

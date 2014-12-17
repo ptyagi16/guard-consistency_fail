@@ -2,14 +2,15 @@ require 'guard'
 require 'guard/guard'
 
 module Guard
-  class ConsistencyFail < Guard
+  class ConsistencyFail < Plugin
 
     # Allowable options are:
     # :environment        defaults to 'development'
 
-    def initialize(watchers = [], options = {})
+    def initialize(options = {})
       @options = options
-      super(watchers, options)
+      @watchers = options[:watchers]
+      super()
     end
 
     def start
