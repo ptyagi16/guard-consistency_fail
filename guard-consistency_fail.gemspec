@@ -15,14 +15,15 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = '>= 1.3.6'
   s.rubyforge_project = "guard-consistency_fail"
-  
-  s.add_dependency 'guard',                     '>= 2.0'
+
+  s.add_dependency 'guard',                     '>= 2.1'
+  s.add_dependency 'guard-compat', '~> 1.0'
   s.add_dependency 'consistency_fail'
 
-  s.add_development_dependency 'bundler',       '> 1.0.10'
-  s.add_development_dependency 'rspec',         '> 2.5.0'
-  s.add_development_dependency 'guard-rspec',   '> 0.2.0'
-  s.add_development_dependency 'guard-bundler', '> 0.1.1'
+  s.add_development_dependency 'bundler'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'guard-rspec'
+  s.add_development_dependency 'guard-bundler'
 
   s.files            = Dir['{lib,doc,test}/**/*', 'README*']
   s.test_files       = Dir['{test,spec,features}/**/*']

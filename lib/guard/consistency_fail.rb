@@ -1,5 +1,4 @@
 require 'guard'
-require 'guard/plugin'
 
 module Guard
   class ConsistencyFail < Plugin
@@ -43,7 +42,7 @@ module Guard
     def cmd
       command = 'consistency_fail'
       command = "export RAILS_ENV=#{@options[:environment]}; #{command}" if @options[:environment]
-      UI.info "Running consistency_fail: #{command}"
+      Compat::UI.info "Running consistency_fail: #{command}"
       command
     end
   end
