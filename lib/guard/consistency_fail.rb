@@ -7,13 +7,16 @@ module Guard
     # :environment        defaults to 'development'
 
     def initialize(options = {})
-      @options = options
-      @watchers = options[:watchers]
       super
+      @options = {
+        all_on_start: true,
+        rails_app_dir: '.'
+      }.merge(options)
+      @watchers = options[:watchers]
     end
 
     def start
-      system(cmd)
+      run_all if @options[:all_on_start]
     end
 
     # Called on Ctrl-C signal (when Guard quits)
@@ -29,7 +32,7 @@ module Guard
     # Called on Ctrl-/ signal
     # This method should be principally used for long action like running all specs/tests/...
     def run_all
-      start
+      system(cmd)
     end
 
     # Called on file(s) modifications
@@ -41,6 +44,7 @@ module Guard
 
     def cmd
       command = 'consistency_fail'
+      command += " #{@options[:rails_app_dir]}" if '.' != @options[:rails_app_dir]
       command = "export RAILS_ENV=#{@options[:environment]}; #{command}" if @options[:environment]
       Compat::UI.info "Running consistency_fail: #{command}"
       command
