@@ -1,4 +1,4 @@
-guard 'consistency_fail', :environment => 'development' do
+guard 'consistency_fail', :environment => 'development', :rails_app_dir => '.', :all_on_start => true do
   watch(%r{^app/model/(.+)\.rb})
   watch(%r{^db/schema.rb})
 end
